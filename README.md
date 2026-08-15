@@ -444,17 +444,17 @@ The statistical tables in § 3 are derived rather than measured, and random and
 node mode are described but not implemented, so nothing asserts those.
 
 ```
-npm install plid
+npm install @zmxv/plid
 ```
 
-The package is **ESM-only**. `import` works everywhere; `require("plid")` works
+The package is **ESM-only**. `import` works everywhere; `require("@zmxv/plid")` works
 from Node 20.19 and 22.12, where `require(esm)` landed, and needs a dynamic
 `import()` before that — as does a TypeScript CommonJS file under `node16` resolution.
 
 Most of the time, one function:
 
 ```ts
-import { plid } from "plid";
+import { plid } from "@zmxv/plid";
 
 const id = plid();     // "1d0LFaLM8fLm" — PLID-12, the recommended default
 
@@ -469,7 +469,7 @@ The rest of the surface, in one place:
 import {
   plid, stamp, timestamp, createGenerator, decode, offset,
   localDate, localDateKey, driftMs, isPlid, dateOffset, MAX_MS,
-} from "plid";
+} from "@zmxv/plid";
 
 plid(16);                       // "1d0LFaLMiTMmi4gU" — a wider profile
 plid(12, 0);                    // no local calendar to speak of: offset bits 0

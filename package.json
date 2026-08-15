@@ -1,5 +1,5 @@
 {
-  "name": "plid",
+  "name": "@zmxv/plid",
   "version": "1.0.0",
   "description": "Prefix-Lexicographic ID — variable-width, lexicographically sortable identifiers with a 46-bit millisecond timestamp and a 2-bit local-date offset",
   "keywords": [
@@ -39,6 +39,9 @@
   ],
   "engines": {
     "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
