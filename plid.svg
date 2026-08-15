@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 56" width="264" height="84" role="img" aria-label="PLID" shape-rendering="crispEdges">
+  <path fill="#121212" d="M0 0h176v56h-176z"/>
+  <path fill="#FBBC05" d="M16 16h16v32h-16z M32 16h24v8h-24z M40 24h16v8h-16z M32 32h24v8h-24z"/>
+  <path fill="#4285F4" d="M64 16h16v24h-16z M80 32h8v8h-8z"/>
+  <path fill="#EA4335" d="M96 16h16v24h-16z M88 16h8v8h-8z"/>
+  <path fill="#34A853" d="M144 8h16v32h-16z M120 16h16v24h-16z M136 16h8v8h-8z M136 32h8v8h-8z"/>
+</svg>
